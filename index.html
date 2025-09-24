@@ -63,14 +63,49 @@
         </div>
         <div class="card__botoes">
           <ul class="botoes">
-            <li class="botoes__item"><img src="./img/favoritos.svg" alt="Favoritar livro"></li>
-            <li class="botoes__item"><img src="./img/compras.svg" alt="Adicionar ao carrinho de compras"></li>
+            <li class="botoes__item"><img src="./img/favoritos.svg" alt="Favoritar livro" /></li>
+            <li class="botoes__item"><img src="./img/compras.svg" alt="Adicionar ao carrinho de compras" /></li>
           </ul>
           <a href="#" class="botoes__ancora">Saiba mais</a>
         </div>
       </div>
-
     </section>
+
+    <section class="carrossel">
+      <h2 class="carrossel__titulo">MAIS VENDIDOS</h2>
+      <div class="swiper">
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./img/apacheKafka.svg" alt="Livro sobre Apache Kafka da AluraBooks" /></div>
+          <div class="swiper-slide"><img src="./img/liderança.svg" alt="Livro sobre Liderança da AluraBooks" /></div>
+          <div class="swiper-slide"><img src="./img/javascript.svg" alt="Livro sobre JavaScript da AluraBooks" /></div>
+          <div class="swiper-slide"><img src="./img/guia-Front-end.svg" alt="Livro sobre Guia de Front-end da AluraBooks" /></div>
+          <div class="swiper-slide"><img src="./img/portugol.svg" alt="Livro sobre Portugol da AluraBooks" /></div>
+          <div class="swiper-slide"><img src="./img/acessibilidade.svg" alt="Livro sobre Acessibilidade da AluraBooks" /></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <div class="card">
+        <div class="card__descricao">
+          <div class="descricao">
+            <img src="./img/estrelinhas.svg" alt="Imagem de avaliação com 5 estrelas" class="descricao__img--estrela" />
+            <h3 class="descricao__titulo">Autora do Mês</h3>
+            <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+            <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+          </div>
+          <img src="./img/escritora.svg" alt="Imagem da escritora" class="descricao__img" />
+        </div>
+        <div class="card__botoes">
+          <ul class="botoes">
+            <li class="botoes__item"><img src="./img/favoritos.svg" alt="Favoritar livro" /></li>
+            <li class="botoes__item"><img src="./img/compras.svg" alt="Adicionar ao carrinho de compras" /></li>
+          </ul>
+          <a href="#" class="botoes__ancora">Saiba mais</a>
+        </div>
+      </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script>
       const swiper = new Swiper(".swiper", {
